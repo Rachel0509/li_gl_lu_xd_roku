@@ -53,8 +53,8 @@ SOFTWARE.
 
 ## Future Plan
 
-1.Adding more microtransactions.
-2.Finished web page structure.
+1. Adding more microtransactions.
+2. Finished web page structure.
 
 
 

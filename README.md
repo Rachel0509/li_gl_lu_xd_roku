@@ -55,6 +55,7 @@ SOFTWARE.
 
 1. Adding more microtransactions.
 2. Finished web page structure.
+3. Adding some genre and years to fliter different results
 
 
 

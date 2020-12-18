@@ -25,8 +25,8 @@ Just clone the repo anywhere on your computer and create branches!
 
 ## Author
 
-* **Xindi Lu** - (https://github.com/0602-lxd)
-* **Guangli Li** - (https://github.com/Rachel0509)
+* **Desinger - Xindi Lu** - (https://github.com/0602-lxd)
+* **Developer - Guangli Li** - (https://github.com/Rachel0509)
 
 ## MIT License
 MIT License

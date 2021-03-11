@@ -1,4 +1,4 @@
-# Xindi Lu & Guangli Li - Roku Flashback
+# Roku Flashback
 
 ## Description
 we need to create mobile-first web application based on the Roku Flashback.The users should be able to log in, filter and select a movie, tv show, or audio based on user profile (adult or kids). It needs to restrict access to some content based on age or ratings.The UX / UI should update based on the user (children / adults) and render the appropriate theme on login.There is my development and design files, you can click it to preview

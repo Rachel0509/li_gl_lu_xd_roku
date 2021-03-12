@@ -1,8 +1,27 @@
 .list-page-wrap{
     background-color: #1b0b27;
     .banner-box{
-        img{
+        position: relative;
+        >img{
             width: 100%;
+        }
+        .btn{
+            position: absolute;
+            right: 30%;
+            bottom: 0;
+            right: 6.7%;
+            width: 15.4%;
+            height: 6.7%;
+            cursor: pointer;
+            img{
+                width: 100%;
+            }
+            &-play{
+                bottom: 18.4%;
+            }
+            &-more{
+                bottom: 7.3%;
+            }
         }
     }
     .tab-box{

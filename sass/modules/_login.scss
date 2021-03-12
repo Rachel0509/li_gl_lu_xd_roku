@@ -1,0 +1,91 @@
+.signInCon{
+    color: $fontColor;
+    h2{
+        font-size: 60px;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    .form-box{
+        background-color: $mainColor;
+        border-radius: 50px;
+        width: 604px;
+        display: flow-root;
+        margin: 40px auto 30px;
+        position: relative;
+        .t-t{
+            font-size: 30px;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translate(-50%, -50%);
+        }
+        .box-inner{
+            margin: 30px 20px;
+        }
+        .form{
+            label{
+                display: block;
+                margin: 20px 0;
+                font-size: 18px;
+            }
+            .formCol{
+                input{
+                    width: 100%;
+                    background-color: #fff;
+                    height: 36px;
+                    color: $mainColor;
+                    font-size: 18px;
+                }
+            }
+            .forget-pass{
+                text-align: right;
+                padding: 10px 0 0;
+                a{
+                    display: inline-block;
+                    border-bottom: 1px solid #fff;
+                    padding: 5px 0;
+                }
+            }
+            .submit-btn{
+                padding-top: 20px;
+                text-align: center;
+                input[name="submit"]{
+                    background-color: #9885a7;
+                    border-radius: 27px;
+                    width: 180px;
+                    height: 30px;
+                    color: $fontColor;
+                    border: none;
+                }
+            }
+        }
+        .tip-1{
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .tip-2{
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .to-signup{
+            display: inline-block;
+            border-bottom: 1px solid #fff;
+            padding: 5px 0;
+        }
+    }
+}
+@media screen and (max-width: 750px){
+    .signInCon{
+        h2, h4{
+            display: none;
+        }
+        .form-box{
+            width: 90%;
+        }
+    }
+}

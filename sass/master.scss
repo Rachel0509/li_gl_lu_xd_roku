@@ -1,6 +1,7 @@
-@import 'modules/_nav.scss';
-@import 'modules/_mediaqueries.scss';
-@import 'modules/_body.scss';
-@import 'modules/_footer.scss';
-@import 'modules/_vars.scss';
-@import 'modules/_login.scss';
+@import 'modules/vars';
+@import 'modules/base';
+@import 'modules/footer';
+@import 'modules/nav';
+@import 'modules/login';
+@import 'modules/welcome';
+@import 'modules/list';

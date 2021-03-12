@@ -1,0 +1,48 @@
+.main-footer{
+    height: 173px;
+    background:url(/images/foot_bg.png);
+    background-size: 100%;
+    position: relative;
+    .foot-nav{
+        display: flex;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        li{
+            width: 25%;
+            color:#fff;
+            cursor: pointer;
+            flex-shrink: 0;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
+    .foot-copyright{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        font-size: 18px;
+        color:#fff;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 750px){
+    .main-footer{
+        height: 270px;
+        .foot-nav{
+            padding-top: 50px;
+            li{
+                width: 33%;
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+        }
+        .foot-copyright{
+            font-size: 16px;
+        }
+    }
+}

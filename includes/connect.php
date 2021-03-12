@@ -6,6 +6,7 @@
         'charset' => 'utf8',
     );
     
+    
     $dsn = 'mysql:' . http_build_query($db_dsn, '', ';');
 
     // Set up connection credentials

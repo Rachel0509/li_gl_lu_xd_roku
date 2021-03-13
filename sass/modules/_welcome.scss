@@ -79,34 +79,3 @@
     }
 }
 
-@media screen and (max-width: 750px){
-    .welcome-wrap{
-        padding-bottom: 50px;
-        h2, h4{
-            display: none;
-        }
-        .list-item{
-            .item-pic{
-                width: 100px;
-                margin-bottom: 10px;
-                img{
-                    width: 100%;
-                }
-            }
-        }
-        .add-list-item{
-            .item-pic{
-                width: 100px;
-                height: 100px;
-                &::after{
-                    width: 50px;
-                    height: 10px;
-                }
-                &::before{
-                    height: 50px;
-                    width: 10px;
-                }
-            }
-        }
-    }
-}

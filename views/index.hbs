@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+    content="ie=edge">
+  <meta http-equiv="X-UA-Compatible"
+    content="ie=edge">
+  <title>Roku FlashBack</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <link rel="stylesheet"
+    href="./css/reset.css">
+  <link rel="stylesheet"
+    href="./css/master.css">
+
+</head>
+
+<body>
+  <main id="app"
+    class="app"
+    :class="pageName+'-wrapper'">
+    <header id="mainHeader"
+      class="main-header"
+      ref="mainHeader">
+      <div class="inner">
+        <div class="logo">
+          <img v-if="pageName == 'kids'"
+            src="images/logo_kids.png" />
+          <img v-else
+            src="images/logo.png" />
+        </div>
+        <div class="user">
+          <span class="sign-out"
+            v-if="user != ''"
+            @click="toLogin">Sign out</span>
+          <button class="kids-btn"
+            v-if="pageName == 'kids'">kids</button>
+          <div class="user-icon"
+            v-if="pageName != 'login' && pageName != 'welcome'">
+            <img src="/images/user_icon.png" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <router-view ref="comp"
+      @authenticated="setAuthenticated"></router-view>
+
+    <footer id="mainFooter"
+      class="main-footer">
+      <ul class="foot-nav">
+        <li>FQA</li>
+        <li>Help Center</li>
+        <li>TV Show</li>
+        <li>Follow Us</li>
+        <li>Cookie Preferences</li>
+        <li> Corporate Information</li>
+        <li> Privacy</li>
+      </ul>
+      <div class="foot-copyright">
+        copyright Roku 2020
+      </div>
+    </footer>
+  </main>
+  <script type="module"
+    src="js/main.js"></script>
+</body>
+
+</html>

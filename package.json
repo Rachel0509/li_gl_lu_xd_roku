@@ -1,17 +1,20 @@
 {
-  "name": "rokuserver",
+  "name": "roku",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "hbs": "^4.1.1",
+    "http-proxy-middleware": "^1.0.6"
+  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start-server": "nodemon server",
     "start":"node server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mysql": "^2.18.1"
-  }
+  "author": "Xindi Lu & Guangli li",
+  "license": "ISC"
 }

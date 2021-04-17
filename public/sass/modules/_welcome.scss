@@ -1,0 +1,88 @@
+.welcome-wrap{
+    background-color: black;
+    color: $fontColor;
+    padding-bottom: 200px;
+    h2{
+        font-size: 60px;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    .btn-area{
+        text-align: center;
+        button{
+            background-color: rgba(103, 45, 145, .6);
+            border-radius: 40px;
+            width: 150px;
+            height: 46px;
+            color: $fontColor;
+            border: none;
+            font-size: 20px;
+        }
+    }
+    .list{
+        padding: 50px 0 46px;
+        display: flex;
+        justify-content: center;
+    }
+    .list-item{
+        margin: 0 10px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        border: 2px solid transparent;
+        &.selected {
+          border: 2px solid rgba(103, 45, 145, .6);
+          border-radius: 30px;
+        }
+        .item-pic{
+            width: 200px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-bottom: 30px;
+            img{
+                width: 100%;
+            }
+        }
+        .item-name{
+            font-size: 16px;
+            text-align: center;
+            line-height: 2;
+        }
+    }
+    
+    .add-list-item{
+        align-self: flex-start;
+        .item-pic{
+            background-color:#fff;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            &::after,
+            &::before{
+                content: '';
+                background-color: $auxColor;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            &::after{
+                width: 100px;
+                height: 20px;
+            }
+            &::before{
+                height: 100px;
+                width: 20px;
+            }
+        }
+    }
+}
+

@@ -9,6 +9,17 @@ we need to create mobile-first web application based on the Roku Flashback.The u
 Just clone the repo anywhere on your computer and create branches!
 
 
+##  Audio/Video files and Database
+Please download Audios/Videos and move to public folder
+* [public](https://drive.google.com/file/d/12Zt3PiYNmb9ZRJJxisXDdjVoN14Xx9jE/view?usp=sharing)
+
+
+## Documents
+
+[Dev Note](https://docs.google.com/document/d/1E7BG5yN6sDt2aTjLLcaP532MFX3-D_i2y2KgoxeA-W4/edit?usp=sharing)
+[Design Doc](https://docs.google.com/document/d/1jP08NDgi_VWPwd4_aNWNmuoFODKzFBfQA0eXTIgpDtY/edit?usp=sharing)
+[prototype](https://xd.adobe.com/view/0d896e36-7f3d-49fc-8456-8846b98d4c15-58da/)
+
 ## Contributing 
 
 1. Fork it!
@@ -52,10 +63,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Future Plan
 
-1. Adding more microtransactions.
-2. Finished web page structure.
-3. Adding some genre and years to fliter different results
 
 

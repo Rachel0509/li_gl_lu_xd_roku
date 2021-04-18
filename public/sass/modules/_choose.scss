@@ -1,0 +1,48 @@
+.roku-form{
+    border-radius: 50px;
+    width: 604px;
+    display: flow-root;
+    margin: 40px auto 30px;
+    position: relative;
+    label{
+        display: block;
+        margin: 20px 0;
+        font-size: 18px;
+    }
+    .formCol{
+      height: 60px;
+      line-height: 60px;
+      display: flex;
+      align-items: center;
+      input[type="text"],input[type="password"],input[type="email"]{
+            width: 100%;
+            background-color: #fff;
+            height: 36px;
+            color: $mainColor;
+            font-size: 18px;
+      }
+      input[type="checkbox"]{
+          zoom: 180%;
+      }
+      .input_check_row{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: -80px;
+      }
+    }
+    .btn-area{
+        padding-top: 20px;
+        text-align: center;
+        button{
+            background-color: #d6afce;
+            border-radius: 27px;
+            width: 100%;
+            height: 40px;
+            color: $fontColor;
+            border: none;
+            margin-bottom: 20px;
+        }
+    }
+    
+}

@@ -1,8 +1,9 @@
 # Roku Flashback Project
 
+![header](./public/images/banner.png "logo")
+
 ## Description
 we need to create mobile-first web application based on the Roku Flashback.The users should be able to log in, filter and select a movie, tv show, or audio based on user profile (adult or kids). It needs to restrict access to some content based on age or ratings.The UX / UI should update based on the user (children / adults) and render the appropriate theme on login.There is my development and design files, you can click it to preview
-
 [Dev Note](https://docs.google.com/document/d/1E7BG5yN6sDt2aTjLLcaP532MFX3-D_i2y2KgoxeA-W4/edit?usp=sharing)and
 [Design Doc](https://docs.google.com/document/d/1jP08NDgi_VWPwd4_aNWNmuoFODKzFBfQA0eXTIgpDtY/edit?usp=sharing).
 
@@ -12,7 +13,7 @@ we need to create mobile-first web application based on the Roku Flashback.The u
 
 2. import database （db_rk.sql）
 
-3. Download audios and videos  https://drive.google.com/file/d/12Zt3PiYNmb9ZRJJxisXDdjVoN14Xx9jE/view?usp=sharing and put them tinto public folder.
+3. Download audios and videos  https://drive.google.com/file/d/12Zt3PiYNmb9ZRJJxisXDdjVoN14Xx9jE/view?usp=sharing and put them into public folder.
 
 5. Run `npm install` and `npm run start`, PORT:  `localhost:5000`
 

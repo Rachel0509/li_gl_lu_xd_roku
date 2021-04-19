@@ -535,6 +535,9 @@ a {
 .detail-page-wrap .detail-content-wrap {
   width: 100%;
 }
+.detail-page-wrap .detail-content-wrap .comment-content{
+  margin-left: 10vw;
+}
 .detail-page-wrap .detail-content-wrap h3 {
   font-size: 30px;
   line-height: 1;
